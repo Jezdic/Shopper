@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-primary {
+  @apply p-2 hover:bg-gray-300 hover:text-gray-800;
+}
+
+.btn-cta {
+  @apply bg-gray-600 text-white p-2 hover:bg-white hover:text-black;
+}
+
+html {
+  min-height: 100%;
+}
